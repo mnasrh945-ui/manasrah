@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/manasrah/static/css/main.1e85c023.css",
+    "main.js": "/manasrah/static/js/main.eed7e51d.js",
+    "static/js/453.6b2a7959.chunk.js": "/manasrah/static/js/453.6b2a7959.chunk.js",
+    "service-worker.js": "/manasrah/service-worker.js",
+    "index.html": "/manasrah/index.html",
+    "main.1e85c023.css.map": "/manasrah/static/css/main.1e85c023.css.map",
+    "main.eed7e51d.js.map": "/manasrah/static/js/main.eed7e51d.js.map",
+    "453.6b2a7959.chunk.js.map": "/manasrah/static/js/453.6b2a7959.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e85c023.css",
+    "static/js/main.eed7e51d.js"
+  ]
+}
