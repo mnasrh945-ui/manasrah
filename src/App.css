@@ -1,0 +1,135 @@
+.App {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px #0001;
+  padding: 32px 24px 24px 24px;
+  font-family: 'Cairo', 'Tajawal', 'Amiri', 'Segoe UI', 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #2d3436;
+  margin-bottom: 32px;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+}
+
+form {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+form input {
+  border: 1px solid #dfe6e9;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 1rem;
+  background: #fafafa;
+  transition: border 0.2s;
+}
+
+form input:focus {
+  border: 1.5px solid #0984e3;
+  outline: none;
+}
+
+form button {
+  background: #0984e3;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+form button[type="button"] {
+  background: #636e72;
+}
+
+form button:hover {
+  background: #74b9ff;
+}
+
+form button[type="button"]:hover {
+  background: #b2bec3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  margin-top: 8px;
+}
+
+th, td {
+  padding: 12px 8px;
+  border-bottom: 1px solid #eee;
+  text-align: right;
+  font-size: 1.05rem;
+}
+
+th {
+  background: #f1f2f6;
+  color: #636e72;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+td button {
+  margin-left: 6px;
+  padding: 5px 14px;
+  border-radius: 5px;
+  border: none;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+td button:first-child {
+  background: #00b894;
+  color: #fff;
+}
+
+td button:first-child:hover {
+  background: #55efc4;
+}
+
+td button:last-child {
+  background: #d63031;
+  color: #fff;
+}
+
+td button:last-child:hover {
+  background: #fab1a0;
+  color: #d63031;
+}
+
+@media (max-width: 600px) {
+  .App {
+    padding: 12px 2px;
+  }
+  th, td {
+    font-size: 0.95rem;
+    padding: 8px 4px;
+  }
+  h1 {
+    font-size: 1.3rem;
+  }
+  form {
+    flex-direction: column;
+    gap: 8px;
+    align-items: stretch;
+  }
+}
